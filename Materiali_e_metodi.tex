@@ -38,3 +38,51 @@ Con il metodo CPMG, invece, si riescono a confinare gli effetti di diffusione. e
 Per visualizzare meglio il processo, si rimanda il lettore alle figure...
 
 \paragraph{Metodo IR.}
+
+Il metodo \textit{Inversion Recovery} serve per misurare il tempo $T_1$ di rilassamento longitudinale. Siccome ogni misura fatta riguarda solo le componenti trasversali del vettore di magnetizzazione, si esegue prima un impulso di inversione di $180^\circle$ sul vettore magnetizzazione non perturbato, poi, dopo un tempo $\tau$ variato di volta in volta, si esegue un secondo impulso di inversione di $90^\circle$ per traslare la componente $M_z(\tau)$ sul piano $xy$ e misurarne i valori.
+
+Variando il valore di $\tau$ e misurando il picco del segnale di FID che avviene dopo la seconda inversione, è possibile tracciare la curva del rilassamento longitudinale a partire dalla formula ideale:
+\begin{equation}
+	M_z(\tau)=M_0\left(1 - 2e^{-\frac{\tau}{T_1}}\right)
+\end{equation}
+Per contemplare però anche le inevitabili disomogeneità sperimentali del campo $B_1$, si considera un parametro di smorzamento $\eta$ tale che:
+\begin{equation}
+	M_z(\tau)=M_0\left(1 - (1+\eta)e^{-\frac{\tau}{T_1}}\right)
+\end{equation}
+
+\subsection{Strumenti utilizzati e parametri sperimentali}
+
+Per acquisire le curve di rilassamento longitudinale e trasversale dei campioni di albume e tuorlo, si è fatto uso di un rilassometro costituito da un elettromagnete Jeol, pilotato da una console Stelar per la gestione degli esperimenti NMR e l'acquisizione dati.
+
+Il campo magnetico al quale sono state compiute le misure è $B_0 = 0.473\si{T}$, corrispondente alla frequenza di Larmor $\ni=20.15\si{MHz}$ per il nucleo di idrogeno.
+
+I due campioni sono stati collocati in provette NMR di $8\si{mm}$ di diametro interno, per una altezza di circa $6\si{mm}$.
+
+Si riportano tutti i principali parametri di misura in Tabella ...
+
+\begin{table}
+	\centering
+	\begin{tabular}{ccc}
+	\toprule
+		& \textbf{Tuorlo}	& \textbf{Albume}	\\
+	\midrule
+		& CPMG 				& CPMG 				\\
+	Durata impulso $90^\circle$ & & \\
+	TE & & \\
+	TR & & \\
+	numero echi & & \\
+	numero scansioni & & \\
+	\midrule
+	\midrule
+		& IR				& IR				\\
+	Durata impulso $90^\circle$ & & \\
+	TR & & \\
+	TI iniziale (BINI) & & \\
+	TI finale (BEND) & & \\
+	numero TI in scala LOG & & \\
+	numero di scansioni & & \\
+	\bottomrule
+	\end{tabular}
+	\label{tab:setup}
+	\caption{Parametri di misura per i campioni di tuorlo e albume.}
+\end{table}
