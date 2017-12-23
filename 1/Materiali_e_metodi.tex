@@ -132,6 +132,6 @@ dove si indica con $k$ una delle tante componenti del materiale non uniforme che
 
 Tramite algoritmo UPEN (\textit{Uniform PENality}), implementato nel software UPENWin, si reinterpreta il segnale come una distribuzione continua dei tempi di rilassamento in forma integrale:
 \begin{equation}
-	S(t) = \int f(T_{1/2}) \exp(-t/T{1/2}) \, dT_{1\2}
+	S(t) = \int f(T_{1/2}) \exp(-t/T{1/2}) \, dT_{1/2}
 \end{equation}
 dove $f(T_{1/2})$ è una funzione di distribuzione dei tempi di rilassamento. Per invertire quindi il segnale acquisito ed ottenere una espressione valida della funzione di distribuzione, essendo possibili infinite soluzioni a causa degli errori sperimentali associati ad ogni dato acquisito, il software UPEN fornisce una stima di soluzione in base ad un principio di penalizzazione di soluzioni con eccessivi picchi distinti e non sufficientemente giustificati dai dati.
