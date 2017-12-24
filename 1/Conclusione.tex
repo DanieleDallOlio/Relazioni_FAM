@@ -26,8 +26,33 @@ Avendo ottenuto i valori di $T_1$ e $T_2$ per il tuorlo e per l'albume, è ora p
 
 ${M_y}_{(T_R,T_E)} = M_0[1-e^{-\frac{T_R}{T_1}}(2e^{-\frac{T_{E/2}}{T_1}}-1)]e^{-\frac{T_E}{T_2}}$		\\
 	
+\'E stato tracciato il grafico tridimensionale \ref{3D} del contrasto in funzione di $T_E$ e $T_R$ appartenti al range $10-1000\,ms$, i cui valori indicano rispettivamente il limite strumentale e il valore massimo entro il quale è ragionevole ripetere la sequenza. 
+Inoltre, sono stati tracciati i grafici \ref{} e \ref{} per ricavare gli intervalli di immagini pesate per $T_1$ e $T_2$.
+Per pesare in $T_1$ è stato fissato il $T_E$ al minimo strumentale ed è stato ricercato l'intervallo rispetto a $T_R$; mentre per pesare in $T_2$ è stato fissato $T_R$ pari al massimo valore di ripetibilità ed è stato ricercato l'intervallo su $T_E$.
 
-La tabella seguente contiene gli intervalli derivati.
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.3]{3Dw.png}
+\caption{Rappresentazione 3D del contrasto tra albume e tuorlo.}
+\label{fig:3D}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\subfloat[][\emph{Andamento rispetto a $T_R$ per pesare in $T_1$.}]
+	{\label{subfig:T1}
+	\includegraphics[scale=.18]{T1w.png}
+	} \quad
+\subfloat[][\emph{Andamento rispetto a $T_E$ per pesare in $T_R$.}]
+	{\label{subfig:T2}
+	\includegraphics[width=.4\textwidth]{T2w.png}
+	} \\
+\caption{}
+\label{fig:Contrasto}
+\end{figure}
+
+
+La tabella seguente contiene gli intervalli derivati approssimati al valore dell'intero più vicino.
 
 
 \begin{table}[h]
@@ -36,8 +61,8 @@ La tabella seguente contiene gli intervalli derivati.
 	\toprule
 		\textbf{Pesate in $T_1$} &	\textbf{Pesate in $T_2$}	\\
 	\midrule
-		$T_E = 50\,ms$			&		$T_E = 16\,ms$	 \\	
-		$T_R = 1000\,ms$			&		$T_R = 400\,ms$ \\
+		$T_E = 10\,ms$			&		$T_E = 60\,ms$	 \\	
+		$T_R = 130\,ms$			&		$T_R = 1000\,ms$ \\
 	\bottomrule
 	\end{tabular}
 	\caption{Stime degli intervalli per $T_E$ e $T_R$ per generare immagini MRI pesate.}	
