@@ -16,7 +16,7 @@ L'analisi dei tempi di rilassamento per i due campioni ha previsto l'elaborazion
 
 Per valutare con maggior consistenza i risultati il software è stato eseguito sugli stessi dati dei campioni secondo diverse configurazioni.
 
-Le configurazioni impostate per Upen riguardo ai dati del tuorlo e dell'albume sono state, eccetto la configurazione di default, l'utilizzo del doppio e del triplo dei punti a disposizione per formulare la soluzione quasi-continua o, in alternativa, la variazione del parametro di smoothing. 
+Le configurazioni impostate per Upen riguardo ai dati del tuorlo e dell'albume sono state, eccetto la configurazione di default, l'utilizzo del doppio e del triplo dei punti di inversione per formulare la soluzione quasi-continua o, in alternativa, la variazione del parametro di smoothing. 
 Le specifiche delle configurazioni sono citate in seguito. 
 
 Le prime due sezioni sono suddivise in due parti: la prima relativa all'analisi del tempo di rilassamento longitudinale $T_1$, che ha coinvolto la tecnica di Inversion Recovery, e la seconda relativa al tempo di rilassamento trasversale $T_2$, che ha coinvolto la tecnica di CPMG. 
@@ -62,8 +62,8 @@ Entrambe le curve nel grafico sono state delineate a partire dai dati generati d
 					\textbf{Albume}	\\
 		$T_1\,(ms)$ 		& 		$T_2\,(ms)$ 		\\	
 	\midrule
-		$1000\,\pm\,300$	&		$400\,\pm\,160$		\\
-		$65\,\pm\,100$		&		$4\,\pm\,12$		\\
+		$1000\,\pm\,300$	&		$390\,\pm\,110$		\\
+		$65\,\pm\,16$		&		$3.9\,\pm\,1.7$		\\
 	\bottomrule
 	\end{tabular}
 	\caption{Stime dei tempi di rilassamento $T_1$ e $T_2$ dell'albume.}
@@ -72,7 +72,7 @@ Entrambe le curve nel grafico sono state delineate a partire dai dati generati d
 
 Le stime dei valori dei tempi di rilassamento sono state calcolate mediando i valori relativi al punto con maggiore intensità di segnale tra tutte le configurazioni considerate.
 
-L'errore associato ai valori è stato invece calcolato come semidispersione della larghezza del picco nella configurazione con massima larghezza.
+L'errore associato ai valori è stato invece calcolato come la larghezza fra i primi due punti simmetrici dopo il picco, nella configurazione ove tale larghezza è massima.
 Conseguentemente le stime dei tempi sono accompagnate da errori molto elevati, in alcuni casi anche maggiori del valore stesso, ma ciò è ammissibile vista l'assenza di un metodo generale adeguato per la stima del migliore errore da associare a tale misura.
 
 Studiando la relazione tra i tempi di rilassamento dell'albume, tramite una normalizzazione sui dati, è possibile evidenziare come il tempo di rilassamento $T_2$ sia molto minore rispetto a $T_1$;
@@ -93,7 +93,7 @@ Il grafico seguente \ref{fig:Albume} rappresenta tale evidenza.
 
 Le analisi condotte sul tuorlo hanno riportato un andamento differente da quello dell'albume.
 I grafici descritti per il tempo di rilassamento $T_1$ contengono un picco pronunciato che per alcune configurazioni ha una coda allungata e per altre si separa da un altro picco meno intenso.
-Infatti, per le configurazioni di Upen di default e di oversmoothing risulta chiaro quest'ultimo effetto; mentre considerando il doppio e il triplo dei dati grezzi, oltre al caso di undersmoothing, il picco è dotato di una coda allungata verso tempi maggiori.
+Infatti, per le configurazioni di Upen di default e di oversmoothing risulta chiaro quest'ultimo effetto; mentre considerando il doppio e il triplo dei punti di inversione, oltre al caso di undersmoothing, il picco è dotato di una coda allungata verso tempi maggiori.
 
 I dati relativi a $T_1$ si possono trovare nella prima colonna della tabella \ref{tab:Tuorlo} mentre è possibile visualizzare una curva rappresentativa nel sottografico \ref{subfig:T_1tuorlo}. 
 
@@ -129,15 +129,15 @@ Come per il campione d'albume anche per il tuorlo i grafici considerati sono sta
 					\textbf{Tuorlo}	\\
 		$T_1\,(ms)$ 		& 		$T_2\,(ms)$ 		\\	
 	\midrule
-		$50\,\pm\,160$	&		$16\,\pm\,13$		\\
-		$100\,\pm\,400$		&		$80\,\pm\,190$		\\
+		$46\,\pm\,13$		&		$16\,\pm\,4$		\\
+		$100\,\pm\,40$		&		$80\,\pm\,30$		\\
 	\bottomrule
 	\end{tabular}
 	\caption{Stime dei tempi di rilassamento $T_1$ e $T_2$ del tuorlo.}	
 	\label{tab:Tuorlo}
 \end{table}
 
-Come già citato precendemente le stime sono state calcolate come media tra le varie configurazione dei valori con maggior intensità e gli errori come semidispersione della larghezza del picco nel configurazione ove tale larghezza è massima.
+Come già citato precendemente le stime sono state calcolate come media tra le varie configurazione dei valori con maggior intensità e gli errori come la larghezza fra i primi due punti simmetrici dopo il picco, nella configurazione ove tale larghezza è massima.
 
 La relazione tra i tempi di rilassamento nel tuorlo mostrano anche i questo caso che il tempo $T_2$ è molto minore del tempo $T_1$. 
 Tale risultato è meglio espresso dal grafico seguente \ref{fig:Tuorlo}.
