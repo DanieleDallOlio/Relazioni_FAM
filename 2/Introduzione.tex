@@ -1,0 +1,48 @@
+\section*{Introduzione}
+
+In questa parte introduttiva si illustra brevenente la teoria dietro i processi di diffusione molecolare ed in che modo la risonanza magnetica nucleare si colloca come strumento di analisi molto valido.
+
+La diffusione è il moto traslazionale stocastico di molecole e ioni all'interno di una soluzione. Una molecola costituente di un fluido è soggetta a moto browniano. Se il fluido in cui è immersa è omogeneo isotropo ed infinito, la molecola è soggetta a diffusione isotropa tale per cui vale lo spostamento quadratico medio:
+\begin{equation}
+	<x^2(t)> = (2Dt)
+\end{equation}
+dove $D$ prende il nome di costante di diffusione e si collega direttamente alle dimensioni della molecola secondo l'equazione di Stokes-Einsten,
+\begin{equation}
+	D = KT/f
+\end{equation}
+dove, nel caso di molecola sferica, $f = 6\pi\mu r$.
+
+Se la specie molecolare del soluto è la stessa del mezzo in cui le molecole del soluto diffondono, si definisce il tutto un processo di \textbf{auto-diffusione}.
+
+Con l'NMR è possibile studiare la diffusione traslazionale basandosi sull'attenuazione dell'eco di spin causato dallo sfasamento degli spin nucleari dovuto ai processi di diffusione in un una regione con gradiente di campo magnetico $g$ costante.
+
+Considerando un gradiente $g$ diretto verso $z$ ed una singola molecola dotata di spin, si ha che la fase accumulata nel tempo dalla molecola è data da:
+\begin{equation}
+	\Phi(t) = \gamma B_0 t + \gamma \int_0^t g(t')z(t')\,dt'
+\end{equation}
+dove la prima parte è data dal campo statico e la seconda dal gradiente applicato. Se il gradiente $g(t)$ ha intensità costante l'equazione si semplifica in:
+\begin{equation}
+	\Phi_i(\tau) = \gamma B_0 \tau + \gamma g \int_{0}^{\tau}z_i(t')\,dt'
+\end{equation}
+
+Se, dopo il tempo $\tau$, mandiamo alla molecola un impulso $\pi$ di inversione, otteniamo al tempo di eco una fase accumulata:
+\begin{align}
+	\Phi &= \left\{ \gamma B_0 \tau + \gamma g \int_{0}^{\tau}z_i(t')\,dt'\right\} - \left\{ \gamma B_0 \tau + \gamma g \int_{\tau}^{2\tau}z_i(t')\,dt'\right\} \\
+	&= \gamma g \left\{ \int_{0}^{\tau}z_i(t')\,dt' - \int_{\tau}^{2\tau}z_i(t')\,dt' \right\}
+\end{align}
+
+Ergo, per un insieme di nuclei con differenti posizioni iniziali e finali, si avrà un segnale di eco in forma di:
+\begin{equation}
+	S(2\tau) = S(2\tau)_{g=0}\int_{-\infty}^{+\infty} P(\Phi,2\tau)e^{i\Phi}\,d\Phi
+\end{equation}
+dove $P(\Phi,2\tau)$ è la probabilità che il singolo spin abbia accumulato la fase $\Phi$. Questo implica che con assenza di gradiente abbiamo segnale massimo (considerandone solo la parte reale), mentre invece con presenza di gradiente si osserva un segnale attenuato.
+
+Si ha quindi l'espressione:
+\begin{equation}
+	S(2\tau) = S(0) \exp\left(-\frac{2\tau}{T_2}\right) f(\delta,g,\Delta,D)
+\end{equation}
+TODO:::rendere notazione coerente.
+che, per una sequenza SE in condizione di gradiente costante, assume la forma:
+\begin{equation}
+	S(2\tau) = S(0)\exp(-2\tau/T_2)\exp(-2\gamma^2Dg^2\tau^3/3)
+\end{equation}
