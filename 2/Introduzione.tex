@@ -41,8 +41,20 @@ Si ha quindi l'espressione:
 \begin{equation}
 	S(2\tau) = S(0) \exp\left(-\frac{2\tau}{T_2}\right) f(\delta,g,\Delta,D)
 \end{equation}
-TODO:::rendere notazione coerente.
+%%%%% TODO:::rendere notazione coerente.
 che, per una sequenza SE in condizione di gradiente costante, assume la forma:
 \begin{equation}
-	S(2\tau) = S(0)\exp(-2\tau/T_2)\exp(-2\gamma^2Dg^2\tau^3/3)
+	S(2\tau) = S(0)\exp(-\frac{2\tau}{T_2})\exp(-\frac{2}{3}\gamma^2Dg^2\tau^3)
 \end{equation}
+mentre invece, per una sequenza CPMG in condizione di gradiente costante, assume la forma:
+\begin{equation}
+	S(t) = S(0)\exp\left[-\frac{t}{T_2}-\frac{1}{3}\gamma^2 g^2 D\tau^2 t\right]
+\end{equation}
+dove, in questo contesto, $\tau$ rappresenta metà del tempo di eco della sequenza CPMG.
+
+A questo punto, se si vuole misurare il valore di $D$ tramite misure CPMG, si può operare sulla variazione del tempo di eco $2\tau$ e fare uso della funzione:
+\begin{equation}
+	R_{\text{2oss}}(\tau) = \frac{1}{T}_{\text{2oss}}(\tau)=\frac{1}{T_2}+\frac{1}{3}\gamma^2g^2D\tau^2
+\end{equation}
+dove si distingue $T_{\text{2oss}}$ come valore osservato in contrapposizione al $T_2$ ideale non affetto da diffusione. Da questa equazione figura come dalla dipendenza lineare di $R_{\text{2oss}}(\tau)$ da $D$ è possibile, se si osservano andamenti lineari, eseguire il best fit dei dati sperimentali ad una retta ed ottenere il valore della costante di diffusione.
+
