@@ -2,24 +2,24 @@
 I risultati ottenuti in questo esperimento sono esposti rispettivamente per ogni sostanza adoperata. 
 Per ciascuna sostanza sono stati tracciati grafici e acquisiti dati provenienti da diverse configurazioni per il software UPEN. 
 
-Inoltre, le configurazione usate sono state oltre a quella di default:  - l'uso del doppio dei dati per l'inversione; - la variazione del parametro di smoothing adoperato per l'undersmoothing a 5 e 10.
+Le configurazione usate sono state oltre a quella di default:  - l'uso del doppio dei dati per l'inversione; - la variazione del parametro di smoothing, che è stato adoperato per l'analisi in undersmoothing a valori 5 e 10.
 In particolare queste configurazioni sono state definite rispettivamente su: - ciascun $\tau$; - i due $\tau$ maggiori.
 
-Non è stato ritenuto significativo tener conto dell'analisi in oversmoothing poichè per tutte le sostanze le curve delineate mostrano la presenza di un solo picco.
+Non è stato ritenuto significativo tener conto dell'analisi in oversmoothing poichè per tutte le sostanze le curve delineate mostrano la presenza nitida di un solo picco.
 
 Lo stesso procedimento è stato adottato per ogni sostanza ed in particolare il valore dei tempi $T_2$ è stato considerato come il punto con massimo segnale nella curva; mentre l'incertezza associata è stata calcolata come la differenza tra i primi due punti simmetrici dopo il picco.
 
 \subsection*{$H_2O$}
 La prima sostanza esaminata è stata una soluzione composta principalmente d'acqua e con una piccola percentuale di rame e di sale EDTA.
-Sono stati elaborati i dati attraverso il software UPEN per ottenere la distribuzione dei tempi di rilassamento trasversali per $\tau$ (metà del tempo di eco) uguali a 25, 35, 50, 75, 100 e 175 ${\mu}s$.
+Sono stati elaborati i dati attraverso il software UPEN per ottenere la distribuzione dei tempi di rilassamento trasversali per $\tau$ (metà del tempo di eco) uguale a 25, 35, 50, 75, 100 e 175 ${\mu}s$.
 
-Sono riportano di seguito(tabella \ref{tab:T_h2o}) i tempi ricavati con le relative incertezze, i quali sono stati rispettivamente calcolati come la media tra le varie configurazioni e come la massima larghezza tra i primi due punti simmetri dopo il picco.
+Sono riportate di seguito(tabella \ref{tab:T_h2o}) i tempi ricavati con le relative incertezze, i quali sono stati rispettivamente calcolati come la media tra le varie configurazioni e come la massima larghezza tra i primi due punti simmetri dopo il picco.
 
 \begin{table}[h!]
     \begin{center}
     \begin{tabular}{c c c}
     \toprule
-    	${\tau}\,(ms)$ & $T\,(ms)$ & ${\sigma}\,(ms)$ \\
+    	${\tau}\,({\mu}s)$ & $T\,(ms)$ & ${\sigma}\,(ms)$ \\
     \midrule
 	25 & 79 & 9 \\
 	35 & 45 & 18 \\
@@ -66,7 +66,7 @@ Il risultato finale per il coefficiente di autodiffusione associato all'errore �
     \begin{center}
     \begin{tabular}{c c c}
     \toprule
-    	$D\,({\mu}\frac{s^2}{s})$ & $\sigma\,{\mu}\frac{s^2}{s}$ \\
+    	$D\,(\frac{{\mu}^2}{ms})$ & $\sigma\,(\frac{{\mu}^2}{ms})$ \\
     \midrule
     	2.04	&	0.16	\\
     \bottomrule
@@ -88,7 +88,7 @@ Sono riportate in tabella \ref{tab:T_s130} i tempi ottenuti con le relative ince
     \begin{center}
     \begin{tabular}{c c c}
     \toprule
-    	${\tau}\,(ms)$ & $T\,(ms)$ & ${\sigma}\,(ms)$ \\
+    	${\tau}\,({\mu}s)$ & $T\,(ms)$ & ${\sigma}\,(ms)$ \\
     \midrule
 	 20 & 150 & 40 \\
 	 25 & 120 & 30 \\
@@ -137,7 +137,7 @@ Il risultato finale per il coefficiente di autodiffusione del SOLTROL 130 assiem
     \begin{center}
     \begin{tabular}{c c c}
     \toprule
-    	$D\,({\mu}\frac{s^2}{s})$ & $\sigma\,{\mu}\frac{s^2}{s}$ \\
+    	$D\,(\frac{{\mu}^2}{ms})$ & $\sigma\,(\frac{{\mu}^2}{ms})$ \\
     \midrule
     	0.927	&	0.015	\\
     \bottomrule
@@ -159,7 +159,7 @@ Nella tabella seguente \ref{tab:T_s130} sono riportati i tempi calcolati assieme
     \begin{center}
     \begin{tabular}{c c c}
     \toprule
-    	${\tau}\,(ms)$ & $T\,(ms)$ & ${\sigma}\,(ms)$ \\
+    	${\tau}\,({\mu}s)$ & $T\,(ms)$ & ${\sigma}\,(ms)$ \\
     \midrule
 	 25 & 200 & 50 \\
 	 50 & 100 & 30 \\
@@ -191,7 +191,7 @@ I grafici seguenti \ref{fig:D_s170} e \ref{fig:S_s170} mostrano le distribuzioni
 \end{figure}
 
 Successivamente è stato ricavato il coefficiente di autodiffusione applicando una regressione lineare pesata sui dati di tabella \ref{tab:T_s170}, allo stesso modo che per l'acqua e il SOLTROL 130.
-Il grafico \ref{fig:Df_s17} riporta l'andamento del fit.
+Il grafico \ref{fig:Df_s170} riporta l'andamento del fit.
 
 \begin{figure}[h!]
 \centering
@@ -207,7 +207,7 @@ Il risultato finale per il coefficiente di autodiffusione del SOLTROL 170 affett
     \begin{center}
     \begin{tabular}{c c c}
     \toprule
-    	$D\,({\mu}\frac{s^2}{s})$ & $\sigma\,{\mu}\frac{s^2}{s}$ \\
+    	$D\,(\frac{{\mu}^2}{ms})$ & $\sigma\,(\frac{{\mu}^2}{ms})$ \\
     \midrule
     	0.425	&	0.011	\\
     \bottomrule
