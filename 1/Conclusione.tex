@@ -6,12 +6,12 @@ Per dare un'ulteriore solidità a tale risultato si consideri il grafico \ref{fi
 Da questo tipo di illustrazione è possibile valutare quanto i campioni siano descritti da un andamento monoesponenziale e quindi siano costituiti da un solo componente.
 
 Le curve relative ai tempi di rilassamento dell'albume descrivono un andamento lineare finchè il segnale non ha intensità pari a quella del rumore. 
-Ciò implica che l'effetto più rilevante è dato dal singolo costituente dell'albume e l'effetto dato dall'impurità è trascurabile, confermando la leggera presenza ipotizzata precedentemente.
+Ciò implica che l'effetto più rilevante è dato dal singolo costituente dell'albume e l'effetto dato dall'impurità è trascurabile, confermando la leggera impurità ipotizzata precedentemente.
 
 Riguardo al tuorlo invece è possibile notare che per entrambi i tempi di rilassamento si ha un andamento che approssima inizialmente una retta ma che rapidamente si inclina per formare una curva.
 Ciò rafforza l'idea che il tuorlo non sia costituito da un solo composto ma da diversi.
 
-\begin{figure}[h]
+\begin{figure}[ht]
 \centering
 \includegraphics[scale=0.3]{SigT_Sig.jpeg}
 \caption{Rappresentazione semilogaritmica della relazione tra l'intensità del segnale acquisito e il tempo di acquisizione.}
@@ -22,22 +22,20 @@ Ciò rafforza l'idea che il tuorlo non sia costituito da un solo composto ma da 
 Oltre a valutare la composizione di albume e tuorlo, è possibile dedurre dai risultati della sezione precedente che il contrasto che si può ottenere tra immagini pesato in $T_1$ e $T_2$ è alto per entrambi i campioni.
 Infatti, per ognuno dei due si hanno tempi di rilassamento $T_2$ molto inferiori a $T_1$.
 
-Avendo ottenuto i valori di $T_1$ e $T_2$ per il tuorlo e per l'albume, è ora possibile sfruttare la formula seguente di MRI Spin-Echo con metodo spin warp per calcolare gli intervalli di $T_E$ e $T_R$ per ricavare immagini pesate.
+Avendo ottenuto i valori di $T_1$ e $T_2$ per il tuorlo e per l'albume, è ora possibile sfruttare la formula \ref{fm:sw} di MRI Spin-Echo con metodo spin-warp per calcolare gli intervalli di $T_E$ e $T_R$ per ricavare immagini pesate.
 
-${M_y}_{(T_R,T_E)} = M_0[1-e^{-\frac{T_R}{T_1}}(2e^{-\frac{T_{E/2}}{T_1}}-1)]e^{-\frac{T_E}{T_2}}$		\\
-	
-\'E stato tracciato il grafico tridimensionale \ref{3D} del contrasto in funzione di $T_E$ e $T_R$ appartenti al range $10-1000\,ms$, i cui valori indicano rispettivamente il limite strumentale e il valore massimo entro il quale è ragionevole ripetere la sequenza. 
-Inoltre, sono stati tracciati i grafici \ref{} e \ref{} per ricavare gli intervalli di immagini pesate per $T_1$ e $T_2$.
+\'E stato tracciato il grafico tridimensionale \ref{fig:3D} del contrasto in funzione di $T_E$ e $T_R$ appartenti al range $10-1000\,ms$, i cui valori indicano rispettivamente il limite strumentale e il valore massimo entro il quale è ragionevole ripetere la sequenza. 
+Inoltre, sono stati tracciati i grafici \ref{subfig:T1} e \ref{subfig:T2} per ricavare gli intervalli di immagini pesate per $T_1$ e $T_2$.
 Per pesare in $T_1$ è stato fissato il $T_E$ al minimo strumentale ed è stato ricercato l'intervallo rispetto a $T_R$; mentre per pesare in $T_2$ è stato fissato $T_R$ pari al massimo valore di ripetibilità ed è stato ricercato l'intervallo su $T_E$.
 
-\begin{figure}[h]
+\begin{figure}[ht]
 \centering
 \includegraphics[scale=0.3]{3Dw.png}
 \caption{Rappresentazione 3D del contrasto tra albume e tuorlo.}
 \label{fig:3D}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[ht]
 \centering
 \subfloat[][\emph{Andamento rispetto a $T_R$ per pesare in $T_1$.}]
 	{\label{subfig:T1}
@@ -55,7 +53,7 @@ Per pesare in $T_1$ è stato fissato il $T_E$ al minimo strumentale ed è stato 
 La tabella seguente contiene gli intervalli derivati approssimati al valore dell'intero più vicino.
 
 
-\begin{table}[h]
+\begin{table}[ht]
 	\centering
 	\begin{tabular}{ccc}
 	\toprule

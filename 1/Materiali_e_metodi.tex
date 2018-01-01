@@ -12,9 +12,9 @@ Questa componente viene misurata in unità arbitrarie $S(t)$ e, acquisendo coppi
 
 \paragraph{Metodo IR.}
 
-Il metodo \textit{Inversion Recovery} serve per misurare il tempo $T_1$ di rilassamento longitudinale. Siccome ogni misura fatta riguarda solo le componenti trasversali del vettore di magnetizzazione, si esegue prima un impulso di inversione di $180^{\circ}$ sul vettore magnetizzazione non perturbato, poi, dopo un tempo $\tau$ variato di volta in volta, si esegue un secondo impulso di inversione di $90^{\circ}$ per traslare la componente $M_z(\tau)$ sul piano $(x,y)$ e misurarne i valori. Per ottenere un impulso di inversione di $180^{\circ}$ si può sia fare uso di un campo magnetico di intenistà doppia rispetto a quello usato dall'impulso di $90^{\circ}$, oppure fare uso della stessa intensità, ma con una durata di applicazione doppia (Figura \ref{fig:inversioni}).
+Il metodo \textit{Inversion Recovery} serve per misurare il tempo $T_1$ di rilassamento longitudinale. Siccome ogni misura fatta riguarda solo le componenti trasversali del vettore di magnetizzazione, si esegue prima un impulso di inversione di $180^{\circ}$ sul vettore magnetizzazione non perturbato, poi, dopo un tempo $\tau$ variato di volta in volta, si esegue un secondo impulso di inversione di $90^{\circ}$ per traslare la componente $M_z(\tau)$ sul piano $(x,y)$ e misurarne i valori. Per ottenere un impulso di inversione di $180^{\circ}$ si può sia fare uso di un campo magnetico di intensità doppia rispetto a quello usato dall'impulso di $90^{\circ}$; oppure fare uso della stessa intensità, ma con una durata di applicazione doppia (Figura \ref{fig:inversioni}).
 
-\begin{figure}
+\begin{figure}[ht]
 \centering
 \includegraphics[width=\textwidth]{inversioni.jpg}
 \caption{Confronto grafico tra impulso di inversione di $90^{\circ}$ e due varianti di impulso di $180^{\circ}$.}
@@ -32,7 +32,7 @@ Per contemplare però anche le inevitabili disomogeneità sperimentali del campo
 
 Per visualizzare meglio il processo, si rimanda il lettore alla Figura \ref{fig:ir}.
 
-\begin{figure}
+\begin{figure}[ht]
 \centering
 \includegraphics[width=\textwidth]{ir.jpg}
 \caption{Segnale ottenuto tramite sequenza di impulsi IR.}
@@ -57,16 +57,17 @@ Con il metodo SE, si riesce ad isolare meglio $T_2$. Tuttavia, rimangono gli eff
 \begin{equation}
 	A(2\tau) = A(0)\exp\left(-\left(\frac{2\tau}{T_2}\right) - \frac{2}{3} \gamma^2 g^2 D \tau^3\right)
 \end{equation}
-dove $\gamma$ è ..., $g$ è ... e $D$ è ...
+dove $\gamma$ è il rapporto giromagnetico, $g$ è l'intensità del gradiente e $D$ è il coefficiente di diffusione.
 
-Con il metodo CPMG, invece, si riescono a confinare gli effetti di diffusione. essendo $\tau_0$ costante ed avendo molteplici segnali di eco di spin, si ha che:
+Con il metodo CPMG, invece, si riescono a confinare gli effetti di diffusione. 
+Essendo $\tau_0$ costante ed avendo molteplici segnali di eco di spin, si ha che:
 \begin{equation}
 	A(t) = A(0)\exp\left(-\left(\frac{t}{T_2}\right) - \frac{1}{3} \gamma^2 g^2 D \tau^2\right)
 \end{equation}
 
 Per visualizzare meglio il processo CPMG, si rimanda il lettore alla Figura \ref{fig:cpmg}.
 
-\begin{figure}
+\begin{figure}[ht]
 \centering
 \includegraphics[width=\textwidth]{cpmg.jpg}
 \caption{Segnale ottenuto tramite sequenza di impulsi CPMG.}
@@ -77,13 +78,13 @@ Per visualizzare meglio il processo CPMG, si rimanda il lettore alla Figura \ref
 
 Per acquisire le curve di rilassamento longitudinale e trasversale dei campioni di albume e tuorlo, si è fatto uso di un rilassometro costituito da un elettromagnete Jeol, pilotato da una console Stelar per la gestione degli esperimenti NMR e l'acquisizione dati.
 
-Il campo magnetico al quale sono state compiute le misure è $B_0 = 0.473\si{T}$, corrispondente alla frequenza di Larmor $\nu = 20.15\si{MHz}$ per il nucleo di idrogeno.
+Il campo magnetico al quale sono state compiute le misure è $B_0 = 0.473\si{\,}{T}$, corrispondente alla frequenza di Larmor $\nu = 20.15\si{\,}{MHz}$ per il nucleo di idrogeno.
 
-I due campioni sono stati collocati in provette NMR di $8\si{mm}$ di diametro interno, per una altezza di circa $6\si{mm}$.
+I due campioni sono stati collocati in provette NMR di $8\si{\,}{mm}$ di diametro interno, per una altezza di circa $6\si{\,}{mm}$.
 
 Si riportano tutti i principali parametri di misura in Tabella \ref{tab:setup}.
 
-\begin{table}
+\begin{table}[ht]
 	\centering
 	\begin{tabular}{|l|c|c|}
 	\toprule
@@ -91,19 +92,19 @@ Si riportano tutti i principali parametri di misura in Tabella \ref{tab:setup}.
 	\midrule
 						& CPMG 			& CPMG 				\\
 	\midrule
-	Durata impulso $90^{\circ}$ & $3.9\si{\mu s} $& $3.8\si{\mu s}$ \\
-	TE 					& $200\si{ms} $	& $200\si{ms}$ \\
-	TR 					& $5\si{s}$ 	& $5\si{s}$ \\
+	Durata impulso $90^{\circ}$ & $3.9\si{\,}{\mu s} $& $3.8\si{\,}{\mu s}$ \\
+	TE 					& $200\si{\,}{ms} $	& $200\si{\,}{ms}$ \\
+	TR 					& $5\si{\,}{s}$ 	& $5\si{\,}{s}$ \\
 	numero echi 		& 32768 		& 32768 \\
 	numero scansioni 	& 4 			& 4 \\
 	\midrule
 	\midrule
 						& IR			& IR				\\
 	\midrule
-	Durata impulso $90^{\circ}$ & $3.9\si{\mu s} $& $3.8\si{\mu s}$ \\
-	TR 					& $10\si{s}$	& $10\si{s}$ \\
-	TI iniziale 	 	&$100\si{\mu s}$& $1000\si{\mu s}$ \\
-	TI finale 		 	& $10\si{s}$	& $10\si{s}$ \\
+	Durata impulso $90^{\circ}$ & $3.9\si{\,}{\mu s} $& $3.8\si{\,}{\mu s}$ \\
+	TR 					& $10\si{\,}{s}$	& $10\si{\,}{s}$ \\
+	TI iniziale 	 	&$100\si{\,}{\mu s}$& $1000\si{\,}{\mu s}$ \\
+	TI finale 		 	& $10\si{\,}{s}$	& $10\si{\,}{s}$ \\
 	numero TI in scala LOG & 64			& 64 \\
 	numero di scansioni & 1				& 1 \\
 	\bottomrule
@@ -112,13 +113,14 @@ Si riportano tutti i principali parametri di misura in Tabella \ref{tab:setup}.
 	\label{tab:setup}
 \end{table}
 
+
 \subsection*{Calibrazione}
 
 Per calibrare la sonda collegata al circuito L-C-R, si è eseguito un processo di \textit{tuning} e \textit{matching} della strumentazione tramite utilizzo di un generatore a frequenza variabile.
 
 Nella fase di tuning, si è sintonizzata la frequenza di risonanza con la frequenza di Larmor scelta, modificando la capacità del condensatore in serie in modo da far coincidere il minimo della curva rappresentata dalla console Stelar con la frequenza di Larmor di interesse.
 
-Nella fase di matching, si è fatta coincidere l'impedenza del circuito con la linea di trasmissione a $50\si{\Omega}$, agendo sul condensatore posto in parallelo alla bobina, in modo da minimizzare il valore del minimo della curva rappresentata dalla console.
+Nella fase di matching, si è fatta coincidere l'impedenza del circuito con la linea di trasmissione a $50\si{\,}{\Omega}$, agendo sul condensatore posto in parallelo alla bobina, in modo da minimizzare il valore del minimo della curva rappresentata dalla console.
 
 Queste procedure sono necessarie per poter gestire gli effetti causati dai materiali diversi presenti all'interno del circuito e massimizzare il rapporto segnale/rumore.
 
