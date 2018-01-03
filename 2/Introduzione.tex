@@ -1,3 +1,7 @@
+\begin{abstract}
+Si misura il coefficiente di autodiffusione molecolare di tre liquidi idrogenati (Acqua, Soltrol 130, Soltrol 170) tramite analisi dell'attenuazione dell'eco di spin in una regione con gradiente di campo magnetico. Si fa uso di un MObile Universal Surface Exploer per la creazione del gradiente di campo magnetico e la cattura dei dati tramite sequenze CPMG ed infine si utilizza il software UpenWIN per la stima delle frequenze misurate.
+\end{abstract}
+
 \section*{Introduzione}
 
 In questa parte introduttiva si illustra brevenente la teoria dietro i processi di diffusione molecolare ed in che modo la risonanza magnetica nucleare si colloca come strumento di analisi molto valido.
@@ -25,11 +29,12 @@ dove la prima parte è data dal campo statico e la seconda dal gradiente applica
 	\Phi_i(\tau) = \gamma B_0 \tau + \gamma g \int_{0}^{\tau}z_i(t')\,dt'
 \end{equation}
 
-Se, dopo il tempo $\tau$, mandiamo alla molecola un impulso $\pi$ di inversione, otteniamo al tempo di eco una fase accumulata:
-\begin{align}
-	\Phi &= \left\{ \gamma B_0 \tau + \gamma g \int_{0}^{\tau}z_i(t')\,dt'\right\} - \left\{ \gamma B_0 \tau + \gamma g \int_{\tau}^{2\tau}z_i(t')\,dt'\right\} \\
-	&= \gamma g \left\{ \int_{0}^{\tau}z_i(t')\,dt' - \int_{\tau}^{2\tau}z_i(t')\,dt' \right\}
-\end{align}
+Se, dopo il tempo $\tau$, mandiamo alla molecola un impulso $\pi$ di inversione, abbiamo che il secondo impulso di gradiente mandato al tempo $t_0 + \tau$, otteniamo al tempo di eco una fase accumulata:
+\begin{multline}
+	\Phi(2\tau) = \left\{ \gamma B_0 \tau + \gamma g \int_{t_0}^{t_0 + \tau}z_i(t')\,dt'\right\}_{\text{primo periodo } \tau} \\- \left\{ \gamma B_0 \tau + \gamma g \int_{t_0 + \tau}^{t_0 + 2\tau}z_i(t')\,dt'\right\}_{\text{secondo periodo } \tau}
+	\\
+	= \gamma g \left\{ \int_{t_0}^{t_0+\tau}z_i(t')\,dt' - \int_{t_0 + \tau}^{t_0 + 2\tau}z_i(t')\,dt' \right\}
+\end{multline}
 
 Ergo, per un insieme di nuclei con differenti posizioni iniziali e finali, si avrà un segnale di eco in forma di:
 \begin{equation}
@@ -41,7 +46,7 @@ Si ha quindi l'espressione:
 \begin{equation}
 	S(2\tau) = S(0) \exp\left(-\frac{2\tau}{T_2}\right) f(\delta,g,\Delta,D)
 \end{equation}
-%%%%% TODO:::rendere notazione coerente.
+
 che, per una sequenza SE in condizione di gradiente costante, assume la forma:
 \begin{equation}
 	S(2\tau) = S(0)\exp(-\frac{2\tau}{T_2})\exp(-\frac{2}{3}\gamma^2Dg^2\tau^3)
