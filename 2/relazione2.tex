@@ -1,4 +1,4 @@
-\documentclass[10pt,a4paper]{article}
+\documentclass[10pt,a4paper,twocolumn]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[italian]{babel}
 \usepackage{amsmath}
@@ -19,17 +19,15 @@
 
 \graphicspath{{./Figure/}}
 
-\includeonly{Introduzione, Materiali_e_metodi,Risultati,Conclusione}
 \begin{document}
 
-\maketitle
 
-\include{Introduzione}
+\input{Introduzione}
 
-\include{Materiali_e_metodi}
+\input{Materiali_e_metodi}
 
-\include{Risultati}
+\input{Risultati}
 
-\include{Conclusione}
+\input{Conclusione}
 
 \end{document}
