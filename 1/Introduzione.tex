@@ -58,19 +58,19 @@ Tuttavia, per riuscire a tener conto delle pesature in $T_1$ ed in $T_2$ dei var
 Con questo metodo, per definire una immagine su di un piano $(x,y)$, si comincia con l'effettuare $N_{\Phi}$ misure, ciascuna caratterizzata da un suo gradiente $G_{\Phi}$ di durata $\tau_{\Phi}$. Queste misure sono intervallate da un tempo di ripetizione $T_R$. Si acquisiscono $N_f$ dati per ogni misura (per un totale di $N_{\Phi}N_f$).
 
 Dalla teoria si ha che il segnale acquisito sarà proporzionale alla densità dei nuclei presenti secondo l'equazione:
-\begin{equation}
-	S(G_{\Phi}, \tau_{\Phi}, G_f, t) \propto \int_{\text{slice}}\int_{\text{slice}} \rho(x,y) e^{-i\gamma G_\Phi y \tau_\Phi}e^{-i\gamma G_\Phi x \tau_\Phi} \, dxdy
+\begin{multline}
+	S(G_{\Phi}, \tau_{\Phi}, G_f, t) \propto\\ \int_{\text{slice}}\int_{\text{slice}} \rho(x,y) e^{-i\gamma G_\Phi y \tau_\Phi}e^{-i\gamma G_\Phi x \tau_\Phi} \, dxdy
 	\label{eq:spin-warp}
-\end{equation}
+\end{multline}
 Trattando quindi il tutto su di uno spazio $K$, sul quale si definiscono le variabili
 \begin{align}
 	K_x &= \frac{\gamma}{2\pi}G_f t \\
 	K_y &= \frac{\gamma}{2\pi}G_\Phi \tau_\Phi
 \end{align}
 si può ricavare da (\ref{eq:spin-warp}) la densità in funzione del segnale:
-\begin{equation}
-	\rho(x,y) \propto \int_{-\infty}^{+\infty}\int_{-\infty}^{+\infty} S(K_x,K_y) e^{2i\pi(K_x x +K_y y)}\, dK_x dK_y    .
-\end{equation}
+\begin{multline}
+	\rho(x,y) \propto \\\int_{-\infty}^{+\infty}\int_{-\infty}^{+\infty} S(K_x,K_y) e^{2i\pi(K_x x +K_y y)}\, dK_x dK_y    .
+\end{multline}
 Variando i gradienti si riesce quindi a campionare tutto lo spazio $K$.
 
 Per avere un buon contrasto nell'immagine, si fa uso di una sequenza a eco di spin con metodo spin-warp, la cui magnetizzazione è caratterizzata dall'equazione:
