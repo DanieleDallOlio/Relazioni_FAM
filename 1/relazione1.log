@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.23)  1 JAN 2018 18:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.23)  5 JAN 2018 13:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -974,26 +974,25 @@ Package: l3keys2e 2016/01/19 v6377 LaTeX2e option processing using LaTeX3 keys
 Package: translator 2010/06/12 ver 1.10
 
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/translator/translator-language-
-mappings.tex))) (./relazione1.aux (./Introduzione.aux)
-(./Materiali_e_metodi.aux) (./Risultati.aux) (./Conclusione.aux))
+mappings.tex))) (./relazione1.aux)
 \openout1 = `relazione1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Info: Redefining \it@ocap on input line 23.
-LaTeX Info: Redefining \it@ccap on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Info: Redefining \it@ocap on input line 22.
+LaTeX Info: Redefining \it@ccap on input line 22.
 
 
 File italian.ldf warning: 
@@ -1001,7 +1000,7 @@ italian.ldf    With OT1 encoding guillemets are poorly faked
 italian.ldf    Use T1 encoding
 italian.ldf    or specify a font with command \CaporaliFrom
 italian.ldf    See the documentation concerning the babel-italian typesetting 
-italian.ldf    on input line 23.
+italian.ldf    on input line 22.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1063,7 +1062,7 @@ LaTeX Info: Redefining \selectfont on input line 126.
 \JustifyingParindent=\skip81
 )
 \AtBeginShipoutBox=\box53
-Package hyperref Info: Link coloring OFF on input line 23.
+Package hyperref Info: Link coloring OFF on input line 22.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1073,9 +1072,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count184
 )
-LaTeX Info: Redefining \ref on input line 23.
-LaTeX Info: Redefining \pageref on input line 23.
-LaTeX Info: Redefining \nameref on input line 23.
+LaTeX Info: Redefining \ref on input line 22.
+LaTeX Info: Redefining \pageref on input line 22.
+LaTeX Info: Redefining \nameref on input line 22.
 
 (./relazione1.out) (./relazione1.out)
 \@outlinefile=\write3
@@ -1164,233 +1163,262 @@ Dictionary: translator-basic-dictionary, Language: English
 File: siunitx-abbreviations.cfg 2016/03/01 v2.6q siunitx: Abbreviated units
 )
 \c__siunitx_mathsf_int=\count185
-LaTeX Font Info:    Try loading font information for U+msa on input line 23.
+LaTeX Font Info:    Try loading font information for U+msa on input line 22.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 23.
+LaTeX Font Info:    Try loading font information for U+msb on input line 22.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 \c__siunitx_mathtt_int=\count186
- [1
+ (./Introduzione.tex
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-\openout2 = `Introduzione.aux'.
-
- (./Introduzione.tex [2
 
 ]
-
-Package caption Warning: \label without proper reference on input line 49.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:GEcho' on page 3 undefined on input line 44.
-
-<./Figure/gradient-echo.PNG, id=27, 498.36188pt x 347.04657pt>
+<./Figure/gradient-echo.PNG, id=20, 498.36188pt x 347.04657pt>
 File: ./Figure/gradient-echo.PNG Graphic file (type png)
 
 <use ./Figure/gradient-echo.PNG>
 Package pdftex.def Info: ./Figure/gradient-echo.PNG used on input line 48.
-(pdftex.def)             Requested size: 345.0pt x 240.25671pt.
- [3 <./Figure/gradient-echo.PNG>]) [4]
-\openout2 = `Materiali_e_metodi.aux'.
-
-
-(./Materiali_e_metodi.tex
-<./Figure/inversioni.jpg, id=57, 336.03716pt x 166.91801pt>
+(pdftex.def)             Requested size: 221.0pt x 153.89774pt.
+) (./Materiali_e_metodi.tex [2 <./Figure/gradient-echo.PNG>] <./Figure/inversio
+ni.jpg, id=45, 336.03716pt x 166.91801pt>
 File: ./Figure/inversioni.jpg Graphic file (type jpg)
 
 <use ./Figure/inversioni.jpg>
 Package pdftex.def Info: ./Figure/inversioni.jpg used on input line 19.
-(pdftex.def)             Requested size: 345.0pt x 171.37222pt.
- [5
+(pdftex.def)             Requested size: 221.0pt x 109.77654pt.
 
+Underfull \hbox (badness 1424) in paragraph at lines 20--20
+\OT1/cmr/m/n/10 ver-sio-ne di $90[]$ e due va-rian-ti di im-pul-so di
+ []
 
- <./Figure/inversioni.jpg>]
-<./Figure/ir.jpg, id=67, 294.59212pt x 134.12822pt>
+<./Figure/ir.jpg, id=47, 294.59212pt x 134.12822pt>
 File: ./Figure/ir.jpg Graphic file (type jpg)
  <use ./Figure/ir.jpg>
 Package pdftex.def Info: ./Figure/ir.jpg used on input line 37.
-(pdftex.def)             Requested size: 345.0pt x 157.0931pt.
+(pdftex.def)             Requested size: 221.0pt x 100.62456pt.
 
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
+ []\OT1/cmr/bx/n/10 Metodo CP-MG.[] \OT1/cmr/m/n/10 Il me-to-do \OT1/cmr/m/it/1
+0 Carr-Purcell-
+ []
+
+[3 <./Figure/inversioni.jpg> <./Figure/ir.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 48--49
 
  []
 
-[6 <./Figure/ir.jpg>] <./Figure/cpmg.jpg, id=78, 420.48pt x 143.883pt>
+<./Figure/cpmg.jpg, id=61, 420.48pt x 143.883pt>
 File: ./Figure/cpmg.jpg Graphic file (type jpg)
-
-<use ./Figure/cpmg.jpg>
+ <use ./Figure/cpmg.jpg>
 Package pdftex.def Info: ./Figure/cpmg.jpg used on input line 72.
-(pdftex.def)             Requested size: 345.0pt x 118.05725pt.
- [7 <./Figure/cpmg.jpg>]) [8] [9]
-\openout2 = `Risultati.aux'.
+(pdftex.def)             Requested size: 221.0pt x 75.62312pt.
 
- (./Risultati.tex
-<./Figure/ir-raw.PNG, id=104, 843.15pt x 636.87938pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[4 <./Figure/cpmg.jpg>]
+Underfull \hbox (badness 1215) in paragraph at lines 132--134
+\OT1/cmr/m/n/10 dove si in-di-ca con $\OML/cmm/m/it/10 k$ \OT1/cmr/m/n/10 una d
+el-le tan-te com-po-
+ []
+
+) (./Risultati.tex <./Figure/ir-raw.PNG, id=75, 843.15pt x 636.87938pt>
 File: ./Figure/ir-raw.PNG Graphic file (type png)
 
 <use ./Figure/ir-raw.PNG>
 Package pdftex.def Info: ./Figure/ir-raw.PNG used on input line 5.
-(pdftex.def)             Requested size: 345.0pt x 260.59746pt.
+(pdftex.def)             Requested size: 221.0pt x 166.92581pt.
 
-<./Figure/cpmg-raw.PNG, id=105, 812.28468pt x 614.295pt>
+<./Figure/cpmg-raw.PNG, id=76, 812.28468pt x 614.295pt>
 File: ./Figure/cpmg-raw.PNG Graphic file (type png)
 
 <use ./Figure/cpmg-raw.PNG>
 Package pdftex.def Info: ./Figure/cpmg-raw.PNG used on input line 10.
-(pdftex.def)             Requested size: 345.0pt x 260.90788pt.
- [10
-
-
- <./Figure/ir-raw.PNG>]
-<./Figure/IRalbumeTriplo.png, id=120, 578.16pt x 578.16pt>
+(pdftex.def)             Requested size: 221.0pt x 167.12726pt.
+ [5 <./Figure/ir-raw.PNG> <./Figure/cpmg-raw.PNG>]
+<./Figure/IRalbumeTriplo.png, id=94, 578.16pt x 578.16pt>
 File: ./Figure/IRalbumeTriplo.png Graphic file (type png)
 
 <use ./Figure/IRalbumeTriplo.png>
 Package pdftex.def Info: ./Figure/IRalbumeTriplo.png used on input line 46.
-(pdftex.def)             Requested size: 144.53964pt x 144.53964pt.
+(pdftex.def)             Requested size: 221.0pt x 220.99991pt.
 
-<./Figure/CPMGalbume1Triplo.png, id=121, 578.16pt x 578.16pt>
+<./Figure/CPMGalbume1Triplo.png, id=95, 578.16pt x 578.16pt>
 File: ./Figure/CPMGalbume1Triplo.png Graphic file (type png)
 
 <use ./Figure/CPMGalbume1Triplo.png>
 Package pdftex.def Info: ./Figure/CPMGalbume1Triplo.png used on input line 50.
-(pdftex.def)             Requested size: 144.89937pt x 144.89252pt.
- [11 <./Figure/cpmg-raw.PNG>]
-<./Figure/T_albume_merge.png, id=130, 578.16pt x 578.16pt>
+(pdftex.def)             Requested size: 221.0pt x 220.99991pt.
+
+Overfull \hbox (6.66666pt too wide) in paragraph at lines 46--50
+ [][] 
+ []
+
+
+Overfull \hbox (6.66666pt too wide) in paragraph at lines 46--50
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 2698) has occurred while \output is active []
+
+ [6 <./Figure/IRalbumeTriplo.png> <./Figure/CPMGalbume1Triplo.png>]
+<./Figure/T_albume_merge.png, id=112, 578.16pt x 578.16pt>
 File: ./Figure/T_albume_merge.png Graphic file (type png)
 
 <use ./Figure/T_albume_merge.png>
 Package pdftex.def Info: ./Figure/T_albume_merge.png used on input line 84.
-(pdftex.def)             Requested size: 144.53964pt x 144.53964pt.
- [12 <./Figure/IRalbumeTriplo.png> <./Figure/CPMGalbume1Triplo.png>]
-<./Figure/IRtuorloTriplo.png, id=149, 578.16pt x 578.16pt>
+(pdftex.def)             Requested size: 221.0pt x 220.99991pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[7 <./Figure/T_albume_merge.png>]
+<./Figure/IRtuorloTriplo.png, id=127, 578.16pt x 578.16pt>
 File: ./Figure/IRtuorloTriplo.png Graphic file (type png)
 
 <use ./Figure/IRtuorloTriplo.png>
-Package pdftex.def Info: ./Figure/IRtuorloTriplo.png used on input line 111.
-(pdftex.def)             Requested size: 144.53964pt x 144.53964pt.
+Package pdftex.def Info: ./Figure/IRtuorloTriplo.png used on input line 109.
+(pdftex.def)             Requested size: 221.0pt x 220.99991pt.
 
-<./Figure/CPMGtuorlo1Triplo.png, id=150, 578.16pt x 578.16pt>
+<./Figure/CPMGtuorlo1Triplo.png, id=128, 578.16pt x 578.16pt>
 File: ./Figure/CPMGtuorlo1Triplo.png Graphic file (type png)
 
 <use ./Figure/CPMGtuorlo1Triplo.png>
-Package pdftex.def Info: ./Figure/CPMGtuorlo1Triplo.png used on input line 115.
+Package pdftex.def Info: ./Figure/CPMGtuorlo1Triplo.png used on input line 113.
 
-(pdftex.def)             Requested size: 144.89937pt x 144.89252pt.
- [13 <./Figure/T_albume_merge.png> <./Figure/IRtuorloTriplo.png> <./Figure/CPMG
-tuorlo1Triplo.png>]
-<./Figure/T_tuorlo_merge.png, id=163, 578.16pt x 578.16pt>
+(pdftex.def)             Requested size: 221.0pt x 220.99991pt.
+
+Overfull \hbox (6.66666pt too wide) in paragraph at lines 109--113
+ [][] 
+ []
+
+
+Overfull \hbox (6.66666pt too wide) in paragraph at lines 109--113
+ [][] 
+ []
+
+<./Figure/T_tuorlo_merge.png, id=130, 578.16pt x 578.16pt>
 File: ./Figure/T_tuorlo_merge.png Graphic file (type png)
 
 <use ./Figure/T_tuorlo_merge.png>
-Package pdftex.def Info: ./Figure/T_tuorlo_merge.png used on input line 144.
-(pdftex.def)             Requested size: 173.44933pt x 173.44933pt.
+Package pdftex.def Info: ./Figure/T_tuorlo_merge.png used on input line 142.
+(pdftex.def)             Requested size: 221.0pt x 220.99991pt.
 
-<./Figure/T_1_merge.png, id=166, 578.16pt x 578.16pt>
+Underfull \vbox (badness 7613) has occurred while \output is active []
+
+ [8 <./Figure/IRtuorloTriplo.png> <./Figure/CPMGtuorlo1Triplo.png> <./Figure/T_
+tuorlo_merge.png>] <./Figure/T_1_merge.png, id=143, 578.16pt x 578.16pt>
 File: ./Figure/T_1_merge.png Graphic file (type png)
 
 <use ./Figure/T_1_merge.png>
-Package pdftex.def Info: ./Figure/T_1_merge.png used on input line 162.
-(pdftex.def)             Requested size: 144.53964pt x 144.53964pt.
+Package pdftex.def Info: ./Figure/T_1_merge.png used on input line 157.
+(pdftex.def)             Requested size: 221.0pt x 220.99991pt.
 
-<./Figure/T_2_merge.png, id=167, 578.16pt x 578.16pt>
+<./Figure/T_2_merge.png, id=144, 578.16pt x 578.16pt>
 File: ./Figure/T_2_merge.png Graphic file (type png)
 
 <use ./Figure/T_2_merge.png>
-Package pdftex.def Info: ./Figure/T_2_merge.png used on input line 166.
-(pdftex.def)             Requested size: 144.89937pt x 144.89252pt.
-) [14 <./Figure/T_tuorlo_merge.png>] [15 <./Figure/T_1_merge.png> <./Figure/T_2
-_merge.png>]
-\openout2 = `Conclusione.aux'.
+Package pdftex.def Info: ./Figure/T_2_merge.png used on input line 164.
+(pdftex.def)             Requested size: 221.0pt x 220.99991pt.
 
- (./Conclusione.tex
-<./Figure/SigT_Sig.jpeg, id=185, 803.0pt x 798.985pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./Conclusione.tex <./Figure/SigT_Sig.jpeg, id=146, 803.0pt x 798.985pt>
 File: ./Figure/SigT_Sig.jpeg Graphic file (type jpg)
 
 <use ./Figure/SigT_Sig.jpeg>
 Package pdftex.def Info: ./Figure/SigT_Sig.jpeg used on input line 16.
-(pdftex.def)             Requested size: 240.90186pt x 239.69734pt.
- [16
+(pdftex.def)             Requested size: 221.0pt x 219.89833pt.
 
 
- <./Figure/SigT_Sig.jpeg>]
-<./Figure/3Dw.png, id=196, 511.9125pt x 410.53375pt>
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[9 <./Figure/T_1_merge.png> <./Figure/T_2_merge.png>]
+<./Figure/3Dw.png, id=162, 511.9125pt x 410.53375pt>
 File: ./Figure/3Dw.png Graphic file (type png)
  <use ./Figure/3Dw.png>
-Package pdftex.def Info: ./Figure/3Dw.png used on input line 33.
-(pdftex.def)             Requested size: 153.57494pt x 123.16107pt.
+Package pdftex.def Info: ./Figure/3Dw.png used on input line 32.
+(pdftex.def)             Requested size: 221.0pt x 177.23392pt.
 
-<./Figure/T1w.png, id=197, 717.68124pt x 626.34pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./Figure/T1w.png, id=163, 717.68124pt x 626.34pt>
 File: ./Figure/T1w.png Graphic file (type png)
  <use ./Figure/T1w.png>
-Package pdftex.def Info: ./Figure/T1w.png used on input line 43.
-(pdftex.def)             Requested size: 129.17705pt x 112.73633pt.
+Package pdftex.def Info: ./Figure/T1w.png used on input line 39.
+(pdftex.def)             Requested size: 221.0pt x 192.87317pt.
 
-<./Figure/T2w.png, id=198, 706.64pt x 580.1675pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[10 <./Figure/SigT_Sig.jpeg> <./Figure/3Dw.png> <./Figure/T1w.png>]
+<./Figure/T2w.png, id=172, 706.64pt x 580.1675pt>
 File: ./Figure/T2w.png Graphic file (type png)
  <use ./Figure/T2w.png>
-Package pdftex.def Info: ./Figure/T2w.png used on input line 47.
-(pdftex.def)             Requested size: 137.9979pt x 113.29597pt.
+Package pdftex.def Info: ./Figure/T2w.png used on input line 46.
+(pdftex.def)             Requested size: 221.0pt x 181.44353pt.
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 34.
 
-Underfull \hbox (badness 2913) in paragraph at lines 47--47
-[]\OT1/cmr/m/n/8 (b) |\OT1/cmr/m/it/8 An-da-men-to ri-spet-to a $\OML/cmm/m/it/
-8 T[]$ \OT1/cmr/m/it/8 per
- []
+[11
 
-) [17 <./Figure/3Dw.png> <./Figure/T1w.png> <./Figure/T2w.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 35.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 35.
 
-(./relazione1.aux (./Introduzione.aux) (./Materiali_e_metodi.aux)
-(./Risultati.aux) (./Conclusione.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 35.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 35.
+ <./Figure/T2w.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 34.
+ (./relazione1.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 34.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 34.
 Package rerunfilecheck Info: File `relazione1.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 18643 strings out of 493029
- 347704 string characters out of 6136233
- 394235 words of memory out of 5000000
- 21869 multiletter control sequences out of 15000+600000
- 17348 words of font info for 68 fonts, out of 8000000 for 9000
+ 18597 strings out of 493029
+ 347127 string characters out of 6136233
+ 395806 words of memory out of 5000000
+ 21853 multiletter control sequences out of 15000+600000
+ 15022 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,14n,51p,10361b,732s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,14n,49p,10361b,724s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
-i8.pfb>
-Output written on relazione1.pdf (17 pages, 1092361 bytes).
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmti8.pfb>
+Output written on relazione1.pdf (11 pages, 1100494 bytes).
 PDF statistics:
- 296 PDF objects out of 1000 (max. 8388607)
- 223 compressed objects within 3 object streams
- 73 named destinations out of 1000 (max. 500000)
+ 250 PDF objects out of 1000 (max. 8388607)
+ 188 compressed objects within 2 object streams
+ 66 named destinations out of 1000 (max. 500000)
  91 words of extra memory for PDF output out of 10000 (max. 10000000)
 
