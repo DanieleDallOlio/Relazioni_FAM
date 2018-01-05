@@ -14,6 +14,18 @@
 \usepackage{hyperref}
 \usepackage{siunitx}
 
+%%% BackEnd Bibliografico
+\usepackage{textcomp}
+\usepackage[autostyle]{csquotes}
+\usepackage[
+        backend=biber,
+        %bibstyle=numeric,
+        %sorting=ynt
+    ]{biblatex}
+\addbibresource{bib.bib}
+%%%
+
+
 \title{Misura del coefficiente di autodiffusione di acqua, soltrol 130 e soltrol 170}
 \author{Daniele Dall'Olio \and Carlo Emilio Montanari}
 
@@ -29,5 +41,7 @@
 \input{Risultati}
 
 \input{Conclusione}
+
+\printbibliography
 
 \end{document}

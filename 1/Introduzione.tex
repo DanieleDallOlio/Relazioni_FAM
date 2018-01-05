@@ -5,7 +5,7 @@ Si vogliono determinare gli intervalli dei valori dei tempi $T_E$ e $T_R$ per ot
 \end{abstract}
 
 \section*{Introduzione}
-L'esperimento effettuato si è basato sui principi della risonanza magnetica nucleare ed è stato realizzato secondo specifici metodi di acquisizione. 
+L'esperimento effettuato si è basato sui principi della risonanza magnetica nucleare \cite{website} ed è stato realizzato secondo specifici metodi di acquisizione. 
 
 \subsection*{Risonanza Magnetica e Rilassometria}
 
@@ -46,7 +46,7 @@ Sfruttando quindi gradienti lineari lungo le 3 coordinate spaziali, si possono o
 \begin{figure}[ht]
 \centering
 \includegraphics[width=\columnwidth]{gradient-echo.PNG}
-\caption{Schema rappresentante i segnali usati in una sequenza \textit{Gradient-Echo}, un gradiente $G_s$, lungo $z$, insieme ad un impulso $RF$, seleziona la slice; un gradiente lungo $y$ codifica la fase $G_\Phi$; un gradiente lungo $x$ codifica la frequenza $G_f$.}
+\caption{Schema rappresentante i segnali usati in una sequenza \textit{Gradient-Echo}, un gradiente $G_s$, lungo $z$, insieme ad un impulso $RF$, seleziona la slice; un gradiente lungo $y$ codifica la fase $G_\Phi$; un gradiente lungo $x$ codifica la frequenza $G_f$. \cite{website}}
 \label{fig:GEcho}
 \end{figure}
 
@@ -57,7 +57,7 @@ Tuttavia, per riuscire a tener conto delle pesature in $T_1$ ed in $T_2$ dei var
 
 Con questo metodo, per definire una immagine su di un piano $(x,y)$, si comincia con l'effettuare $N_{\Phi}$ misure, ciascuna caratterizzata da un suo gradiente $G_{\Phi}$ di durata $\tau_{\Phi}$. Queste misure sono intervallate da un tempo di ripetizione $T_R$. Si acquisiscono $N_f$ dati per ogni misura (per un totale di $N_{\Phi}N_f$).
 
-Dalla teoria si ha che il segnale acquisito sarà proporzionale alla densità dei nuclei presenti secondo l'equazione:
+Dalla teoria \cite{dhawan2011medical} si ha che il segnale acquisito sarà proporzionale alla densità dei nuclei presenti secondo l'equazione:
 \begin{multline}
 	S(G_{\Phi}, \tau_{\Phi}, G_f, t) \propto\\ \int_{\text{slice}}\int_{\text{slice}} \rho(x,y) e^{-i\gamma G_\Phi y \tau_\Phi}e^{-i\gamma G_\Phi x \tau_\Phi} \, dxdy
 	\label{eq:spin-warp}

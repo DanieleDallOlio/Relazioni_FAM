@@ -14,6 +14,18 @@
 \usepackage{hyperref}
 \usepackage{siunitx}
 
+%%% BackEnd Bibliografico
+\usepackage{textcomp}
+\usepackage[autostyle]{csquotes}
+\usepackage[
+        backend=biber,
+        %bibstyle=numeric,
+        %sorting=ynt
+    ]{biblatex}
+\addbibresource{bibliografia.bib}
+%%%
+
+
 \title{Determinazione degli intervalli di valori dei parametri TE e TR per immagini MRI di tuorlo e albume}
 \author{Daniele Dall'Olio \and Carlo Emilio Montanari}
 
@@ -30,5 +42,9 @@
 \input{Risultati}
 
 \input{Conclusione}
+
+% BIBLIOGRAFIA FINALE
+
+\printbibliography
 
 \end{document}
