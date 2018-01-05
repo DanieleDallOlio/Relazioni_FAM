@@ -13,18 +13,7 @@
 \usepackage{booktabs}
 \usepackage{hyperref}
 \usepackage{siunitx}
-
-%%% BackEnd Bibliografico
-\usepackage{textcomp}
-\usepackage[autostyle]{csquotes}
-\usepackage[
-        backend=biber,
-        %bibstyle=numeric,
-        %sorting=ynt
-    ]{biblatex}
-\addbibresource{bibliografia.bib}
-%%%
-
+\usepackage{url}
 
 \title{Determinazione degli intervalli di valori dei parametri TE e TR per immagini MRI di tuorlo e albume}
 \author{Daniele Dall'Olio \and Carlo Emilio Montanari}
@@ -43,8 +32,25 @@
 
 \input{Conclusione}
 
-% BIBLIOGRAFIA FINALE
+\begin{thebibliography}{9}
 
-\printbibliography
+\bibitem{UpenWIN}
+  Bortolotti V., Brown R.J.S., Fantazzini P.,
+  \textit{UpenWin Software},
+  \url{http://software.dicam.unibo.it/upenwin%20},
+  2012.
+
+\bibitem{website}
+ Hornak Joseph P.,
+ \textit{The Basics of MRI},
+ \url{https://www.cis.rit.edu/htbooks/mri/inside-i.htm},
+ 2016.
+
+ \bibitem{dhawan2011medical}
+ Dhawan Atam P.,
+ \textit{Medical image analysis},
+ 2011.
+
+\end{thebibliography}
 
 \end{document}
