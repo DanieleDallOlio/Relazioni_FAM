@@ -3,25 +3,22 @@ In questa sezione sono esposti in primo luogo i risultati delle analisi condotte
 
 \begin{figure}[ht]
 \includegraphics[width=\columnwidth]{ir-raw.PNG}
-\caption{Segnale IR acquisito, in rosso si ha la parte reale del segnale, in verde la parte immaginaria, in nero il modulo.}
-\label{fig:ir-raw}
+\caption{Segnale IR acquisito, in rosso si ha la parte reale del segnale, in verde la parte immaginaria, in nero il modulo.}\label{fig:ir-raw}
 \end{figure}
-\begin{figure}[h!]
+
+\begin{figure}
 \includegraphics[width=\columnwidth]{cpmg-raw.PNG}
-\caption{Segnale CPMG acquisito, in rosso si ha la parte reale del segnale, in verde la parte immaginaria, in nero il modulo.}
-\label{fig:cpmg-raw}
+\caption{Segnale CPMG acquisito, in rosso si ha la parte reale del segnale, in verde la parte immaginaria, in nero il modulo.}\label{fig:cpmg-raw}
 \end{figure} 
 
 L'analisi dei tempi di rilassamento per i due campioni ha previsto l'elaborazione dei dati attraverso il software UPENWin.
 
-Per valutare con maggior consistenza i risultati il software è stato eseguito sugli stessi dati dei campioni secondo diverse configurazioni.
+Per valutare con maggior consistenza i risultati, il software è stato eseguito sugli stessi dati dei campioni secondo diverse configurazioni.
 
 Le configurazioni impostate per UPENWin riguardo ai dati del tuorlo e dell'albume sono state, eccetto la configurazione di default, l'utilizzo del doppio e del triplo dei punti di inversione per formulare la soluzione quasi-continua o, in alternativa, la variazione del parametro di smoothing. 
 Le specifiche delle configurazioni sono citate in seguito. 
 
-Le prime due sezioni sono suddivise in due parti: la prima relativa all'analisi del tempo di rilassamento longitudinale $T_1$, che ha coinvolto la tecnica di Inversion Recovery, e la seconda relativa al tempo di rilassamento trasversale $T_2$, che ha coinvolto la tecnica di CPMG. 
-
-
+Le prime due sezioni sono suddivise in due parti: la prima relativa all'analisi del tempo di rilassamento longitudinale $T_1$, che ha coinvolto la tecnica di Inversion Recovery, e la seconda relativa al tempo di rilassamento trasversale $T_2$, che ha coinvolto la tecnica di CPMG.
 
 \subsection*{Albume} 
 
@@ -34,11 +31,11 @@ Questo secondo picco è sottolineato nelle configurazioni di oversmoothing di Up
 
 Per quanto riguarda il tempo di rilassamento trasversale $T_2$, il cui valore è stimato nella seconda colonna della tabella \ref{tab:Albume}, sia l'analisi qualitativa dei grafici(\ref{subfig:T_2albume}) che l'analisi quantitativa riportano un comportamento molto simile con $T_1$.
 
-Anche in questo caso è possibile notare dai dati la presenza di un picco più intenso e di un secondo picco a tempi di rilassamento prossimi a 0, che supporta l'ipotesi di impurità nel campione.
+Anche in questo caso è possibile notare dai dati la presenza di un picco più intenso e di un secondo picco a tempi di rilassamento di ordine di grandezza inferiore, che supporta l'ipotesi di impurità nel campione.
 
 Sia per $T_1$ che per $T_2$ la larghezza dei picchi è stretta e ciò ad indicare come i composti siano nelle stesse condizioni. 
 
-\begin{figure}[h!]
+\begin{figure}
 \centering
 \subfloat[][\emph{$T_1$ albume.}]
 	{\label{subfig:T_1albume}
@@ -77,9 +74,9 @@ Conseguentemente le stime dei tempi sono accompagnate da errori molto elevati e 
 
 Studiando la relazione tra i tempi di rilassamento dell'albume, tramite una normalizzazione sui dati, è possibile evidenziare come il tempo di rilassamento $T_2$ sia molto minore rispetto a $T_1$;
 ciò a riprova del fatto che il fluido è più viscoso dell'acqua.   
-Il grafico seguente \ref{fig:Albume} rappresenta tale evidenza.
+Il grafico in Figura \ref{fig:Albume} rappresenta tale evidenza.
 
-\begin{figure}[h!]
+\begin{figure}
 \centering
 \includegraphics[width=\columnwidth]{T_albume_merge.png}
 \caption{Relazione tra la densità di segnale normalizzato e i tempi di rilassamento per il campione di albume.}
@@ -101,7 +98,7 @@ Infatti, come nel caso precedente per alcune configurazioni si manifesta un altr
 
 I valori relativi a $T_2$ per i due picchi sono segnati nella seconda colonna della tabella \ref{tab:Tuorlo}; mentre il sottografico \ref{subfig:T_2tuorlo} delinea l'andamento più consistente.
 
-\begin{figure}[h!]
+\begin{figure}
 \centering
 \subfloat[][\emph{$T_1$ tuorlo.}]
 	{\label{subfig:T_1tuorlo}
@@ -135,9 +132,9 @@ Come per il campione d'albume anche per il tuorlo i grafici considerati sono sta
 Come già citato precendemente le stime sono state calcolate come media tra le varie configurazione dei valori con maggior intensità e gli errori come la larghezza fra i primi due punti simmetrici dopo il picco, nella configurazione ove tale larghezza è massima.
 
 La relazione tra i tempi di rilassamento nel tuorlo mostrano anche in questo caso che il tempo $T_2$ è molto minore del tempo $T_1$. 
-Tale risultato è meglio espresso dal grafico seguente \ref{fig:Tuorlo}.
+Tale risultato è osservabile dal grafico in Figura \ref{fig:Tuorlo}.
 
-\begin{figure}[h!]
+\begin{figure}
 \centering
 \includegraphics[width=\columnwidth]{T_tuorlo_merge.png}
 \caption{Relazione tra la densità di segnale normalizzato e i tempi di rilassamento per il campione di tuorlo.}
@@ -152,17 +149,15 @@ La relazione tra i due campioni rivela come è possibile discriminare i due comp
 Considerando i tempi di rilassamento longitudinali dal grafico \ref{subfig:T_1} è possibile osservare che il tempo associato all'albume è molto maggiore rispetto a quello misurato per il tuorlo. 
 Lo stesso risultato è ottenuto dal confronto tra i tempi di rilassamento trasversali, figura \ref{subfig:T_2}.
 
-\begin{figure}[h!]
+\begin{figure}
 \centering
 \includegraphics[width=\columnwidth]{T_1_merge.png}
-\caption{Confronto tra i tempi di rilassamento longitudinali.}
-\label{subfig:T_1}
+\caption{Confronto tra i tempi di rilassamento longitudinali.}\label{subfig:T_1}
 \end{figure}
 
-\begin{figure}[h!]
+\begin{figure}
 \centering
 \includegraphics[width=\columnwidth]{T_2_merge.png}
-\caption{Confronto tra i tempi di rilassamento trasversali.}
-\label{subfig:T_2}
+\caption{Confronto tra i tempi di rilassamento trasversali.}\label{subfig:T_2}
 \end{figure}
 \newpage

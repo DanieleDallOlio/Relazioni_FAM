@@ -20,7 +20,12 @@ All'equilibrio, la magnetizzazione nucleare è allineata con il campo magnetico 
 L'impulso esercitato equivale ad un campo magnetico stimolante, detto $B_1$, che è perpendicolare a $B_0$ ed oscillante con una frequenza pari alla frequenza di risonanza. 
 L'applicazione di $B_1$ allontana la magnetizzazione dallo stato stazionario e innesca un moto per la magnetizzazione.
 Il moto innescato è una combinazione di rotazioni sia attorno a $B_0$ che alla direzione di $B_1$.
-La rotazione per $B_1$ permette di modificare la direzione della magnetizzazione e quindi il tempo di applicazione dell'impulso incide sulla grandezza dell'angolo di rotazione, chiamato flip angle.
+La rotazione per $B_1$ permette di modificare la direzione della magnetizzazione e quindi il tempo di applicazione dell'impulso incide sulla grandezza dell'angolo di rotazione, chiamato flip angle $\alpha$, secondo l'equazione:
+\begin{equation}
+	\alpha = \gamma B_1 t
+	\label{eq:flip_angle}
+\end{equation}
+dove $\gamma$ è il rapporto giromagnetico caratterizzante e $t$ il tempo di applicazione di $B_1$.
 
 Al termine dell'impulso, se il sistema si trovasse in condizioni ideali, la magnetizzazione dovrebbe continuare solo a ruotare attorno a $B_0$ alla frequenza di risonanza. 
 Ciò però non si verifica a causa delle diverse posizioni degli atomi nel sistema, che comporta la percezione della non perfetta uniformità del campo magnetico $B_0$. 
@@ -30,7 +35,7 @@ Un fenomeno di questo tipo causa una dispersione del vettore magnetizzazione sul
 In questo modo il vettore magnetizzazione ritorna alla posizione di equilibrio e questo effetto è denominato rilassamento.
 
 Il rilassamento è studiato in due componenti, la componente lungo la direzione del campo magnetico $B_0$ (a cui associamo l'asse $z$) e la componente sul piano perpendicolare (piano $xy$). 
-Entrambe le componenti sono perciò caratterizzate da un relativo tempo di rilassamento, che nel caso della componente $z$ chiameremo $T_1$ e nel caso del piano $xy$ chiameremo $T_2$.
+Entrambe le componenti sono perciò caratterizzate da un relativo tempo di rilassamento, che nel caso della componente $z$ chiameremo longitudinale, caratterizzato dal parametro $T_1$, e nel caso del piano $xy$ chiameremo trasversale ($T_2$).
 A partire dallo studio di questi due tempi di rilassamento, sono state sviluppate tecniche per l'elaborazione di immagini MRI.
 
 Nella sezione successiva si trattano i metodi e la strumentazione adoperati in questo esperimento per la misurazione di queste due grandezze.
@@ -43,7 +48,7 @@ Per riuscire ad ottenere un segnale NMR localizzato spazialmente si fa uso di ca
 \end{equation}
 Sfruttando quindi gradienti lineari lungo le 3 coordinate spaziali, si possono ottenere frequenze dipendenti linearmente dalla posizione dei nuclei lungo la coordinata $x$ tramite trasformata di Fourier. Una delle sequenze di segnali più usata è la sequenza \textit{Gradient-Echo}, rappresentata in Figura \ref{fig:GEcho}.
 
-\begin{figure}[ht]
+\begin{figure}
 \centering
 \includegraphics[width=\columnwidth]{gradient-echo.PNG}
 \caption{Schema rappresentante i segnali usati in una sequenza \textit{Gradient-Echo}, un gradiente $G_s$, lungo $z$, insieme ad un impulso $RF$, seleziona la slice; un gradiente lungo $y$ codifica la fase $G_\Phi$; un gradiente lungo $x$ codifica la frequenza $G_f$. \cite{website}}

@@ -14,42 +14,40 @@ Ciò rafforza l'idea che il tuorlo non sia costituito da un solo composto ma da 
 \begin{figure}[h!]
 \centering
 \includegraphics[width=\columnwidth]{SigT_Sig.jpeg}
-\caption{Rappresentazione semilogaritmica della relazione tra l'intensità del segnale acquisito e il tempo di acquisizione.}
-\label{fig:SigT_Sig}
+\caption{Rappresentazione semilogaritmica della relazione tra l'intensità del segnale acquisito e il tempo di acquisizione.}\label{fig:SigT_Sig}
 \end{figure}
 \newpage
-Oltre a valutare la composizione di albume e tuorlo, è possibile dedurre dai risultati della sezione precedente che il contrasto che si può ottenere tra immagini pesato in $T_1$ e $T_2$ è alto per entrambi i campioni.
-Infatti, per ognuno dei due si hanno tempi di rilassamento $T_2$ molto inferiori a $T_1$.
+
+% MODIFICA TOTALE
+% Oltre a valutare la composizione di albume e tuorlo, è possibile dedurre dai risultati della sezione precedente che il contrasto che si può ottenere tra immagini pesato in $T_1$ e $T_2$ è alto per entrambi i campioni.
+% Infatti, per ognuno dei due si hanno tempi di rilassamento $T_2$ molto inferiori a $T_1$.
 
 Avendo ottenuto i valori di $T_1$ e $T_2$ per il tuorlo e per l'albume, è ora possibile sfruttare la formula \ref{fm:sw} di MRI Spin-Echo con metodo spin-warp per calcolare gli intervalli di $T_E$ e $T_R$ per ricavare immagini pesate.
 
 \'E stato tracciato il grafico tridimensionale \ref{fig:3D} del contrasto in funzione di $T_E$ e $T_R$ appartenti al range $10-1000\,ms$, i cui valori indicano rispettivamente il limite strumentale e il valore massimo entro il quale è ragionevole ripetere la sequenza. 
-Inoltre, sono stati tracciati i grafici \ref{subfig:T1} e \ref{subfig:T2} per ricavare gli intervalli di immagini pesate per $T_1$ e $T_2$.
-Per pesare in $T_1$ è stato fissato il $T_E$ al minimo strumentale ed è stato ricercato l'intervallo rispetto a $T_R$; mentre per pesare in $T_2$ è stato fissato $T_R$ pari al massimo valore di ripetibilità ed è stato ricercato l'intervallo su $T_E$.
+Inoltre, sono stati tracciati i grafici \ref{subfig:T1} e \ref{subfig:T2} per ricavare gli intervalli di immagini pesate in $T_1$ e $T_2$.
+Per pesare in $T_1$ è stato fissato il $T_E$ al minimo strumentale ed è stato ricercato l'intervallo rispetto a $T_R$, in modo da ridurre al minimo il decadimento del segnale causato dal termine $e^{-T_E/T_2}$; mentre per pesare in $T_2$ è stato fissato $T_R$ pari al massimo valore di ripetibilità ed è stato ricercato l'intervallo su $T_E$, in modo da rendere trascurabile l'intero blocco dipendente dalla variabile $T_1$.
 
-\begin{figure}[h!]
+\begin{figure}
 \centering
 \includegraphics[width=\columnwidth]{3Dw.png}
-\caption{Rappresentazione 3D del contrasto tra albume e tuorlo.}
-\label{fig:3D}
+\caption{Rappresentazione 3D del contrasto tra albume e tuorlo.}\label{fig:3D}
 \end{figure}
 
-\begin{figure}[h!]
+\begin{figure}
 \centering
 \includegraphics[width=\columnwidth]{T1w.png}
-\caption{Andamento rispetto a $T_R$ per pesare in $T_1$.}
-\label{subfig:T1}
+\caption{Andamento rispetto a $T_R$ per pesare in $T_1$.}\label{subfig:T1}
 \end{figure}
 \clearpage
-\begin{figure}[h!]
+\begin{figure}
 \centering
 \includegraphics[width=\columnwidth]{T2w.png}
-\caption{Andamento rispetto a $T_E$ per pesare in $T_R$.}
-\label{subfig:T2}
+\caption{Andamento rispetto a $T_E$ per pesare in $T_R$.}\label{subfig:T2}
 \end{figure}
 
 La tabella seguente contiene gli intervalli derivati approssimati al valore dell'intero più vicino.
-\begin{table}[h!]
+\begin{table}
 	\centering
 	\begin{tabular}{ccc}
 	\toprule
@@ -59,6 +57,5 @@ La tabella seguente contiene gli intervalli derivati approssimati al valore dell
 		$T_R = 130\,ms$			&		$T_R = 1000\,ms$ \\
 	\bottomrule
 	\end{tabular}
-	\caption{Stime degli intervalli per $T_E$ e $T_R$ per generare immagini MRI pesate.}	
-	\label{tab:Pesate}
+	\caption{Stime degli intervalli per $T_E$ e $T_R$ per generare immagini MRI pesate.}\label{tab:Pesate}
 \end{table}
