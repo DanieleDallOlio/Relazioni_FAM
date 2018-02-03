@@ -1,7 +1,7 @@
 \maketitle
 
 \begin{abstract}
-Si misura il coefficiente di autodiffusione molecolare di tre liquidi idrogenati (Acqua, Soltrol 130, Soltrol 170) tramite analisi dell'attenuazione dell'eco di spin in una regione con gradiente di campo magnetico. Si fa uso di un MObile Universal Surface Exploer per la creazione del gradiente di campo magnetico e la cattura dei dati tramite sequenze CPMG ed infine si utilizza il software UpenWIN per la stima delle frequenze misurate.
+Si misura il coefficiente di autodiffusione molecolare di tre liquidi idrogenati (Acqua, Soltrol 130, Soltrol 170) tramite analisi dell'attenuazione dell'eco di spin in una regione con gradiente di campo magnetico. Si fa uso di un MObile Universal Surface Exploer per la generazione di un gradiente di campo magnetico e l'acquisizione dei dati tramite sequenze CPMG ed infine si utilizza il software UpenWIN per la stima delle frequenze misurate.
 \end{abstract}
 
 \section*{Introduzione}
@@ -31,7 +31,7 @@ dove la prima parte è data dal campo statico e la seconda dal gradiente applica
 	\Phi_i(\tau) = \gamma B_0 \tau + \gamma g \int_{0}^{\tau}z_i(t')\,dt'
 \end{equation}
 
-Se, dopo il tempo $\tau$, mandiamo alla molecola un impulso $\pi$ di inversione, abbiamo che il secondo impulso di gradiente mandato al tempo $t_0 + \tau$, otteniamo al tempo di eco una fase accumulata:
+Se, dopo il tempo $\tau$, mandiamo alla molecola un impulso $\pi$ di inversione, abbiamo che il secondo gradiente di campo magnetico impostato al tempo $t_0 + \tau$ fa ottenere al tempo di eco una fase accumulata:
 \begin{multline}
 	\Phi(2\tau) = \left\{ \gamma B_0 \tau + \gamma g \int_{t_0}^{t_0 + \tau}z_i(t')\,dt'\right\}_{\text{primo periodo } \tau} \\- \left\{ \gamma B_0 \tau + \gamma g \int_{t_0 + \tau}^{t_0 + 2\tau}z_i(t')\,dt'\right\}_{\text{secondo periodo } \tau}
 	\\
